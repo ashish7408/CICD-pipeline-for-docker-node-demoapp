@@ -1,4 +1,4 @@
-# 🚀 Dockerized Node.js App.
+# 🚀 Dockerized Node.js App
 This is a Node.js application fully containerized using Docker. It’s designed as a DevOps starter project and is ideal for practicing CI/CD automation, Jenkins pipelines, container orchestration, and deploying to cloud platforms like AWS EC2.
 
 ---
