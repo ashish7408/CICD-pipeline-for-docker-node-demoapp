@@ -5,7 +5,8 @@ This is a Node.js application fully containerized using Docker. It’s designed 
 
 ## 📦 Project Structure
 ---
-local-devops-app/
+local-devops-app
+|__Jenkinsfile
 ├── Dockerfile
 ├── package.json
 ├── package-lock.json
