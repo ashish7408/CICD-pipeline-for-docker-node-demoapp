@@ -38,13 +38,14 @@ Developer → GitHub → Jenkins (Windows) → Docker Build → Run Container
 
 ```
 devops-demo-app
-│
-├── app.js
+└── public/
+    └── index.html
+├── server.js
 ├── package.json
+├── package-lock.json
 ├── Dockerfile
 └── Jenkinsfile
 ```
-
 ---
 
 ## Application Description
