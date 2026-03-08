@@ -9,6 +9,13 @@ pipeline {
             }
         }
 
+        stage('Stop Old Container') {
+            steps {
+                bat 'docker stop devops-container || exit 0'
+                bat 'docker rm devops-container || exit 0'
+            }
+        }
+
         stage('Build Docker Image') {
             steps {
                 bat 'docker build -t devops-demo .'
