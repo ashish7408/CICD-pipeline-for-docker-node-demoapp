@@ -1,53 +1,137 @@
-# 🚀 Dockerized Node.js App.
+# 🚀  # DevOps CI/CD Pipeline Project (Jenkins + Docker on Windows)
 This is a Node.js application fully containerized using Docker. It’s designed as a DevOps starter project and is ideal for practicing CI/CD automation, Jenkins pipelines, container orchestration, and deploying to cloud platforms like AWS EC2.
 
+
+# DevOps CI/CD Pipeline Project (Jenkins + Docker on Windows)
+
+## Project Overview
+
+This project demonstrates a simple **CI/CD pipeline** using **GitHub, Jenkins (running on Windows), and Docker**.
+The pipeline automatically builds and deploys a containerized application whenever code is pushed to the repository.
+
+The goal of this project is to showcase basic **DevOps practices such as Continuous Integration, Continuous Deployment, containerization, and pipeline automation.**
+
 ---
 
-## 📦 Project Structure
+## Architecture
+
+Developer → GitHub → Jenkins (Windows) → Docker Build → Run Container
+
+### Workflow
+
+1. Developer pushes code to GitHub repository.
+2. Jenkins pulls the latest code from GitHub.
+3. Jenkins builds a Docker image for the application.
+4. Docker runs a container from the built image.
+5. The application becomes accessible through the exposed port.
+
 ---
-local-devops-app
-|__Jenkinsfile
-├── Dockerfile
+
+## Technologies Used
+
+* Git & GitHub – Source code management
+* Jenkins – CI/CD automation server
+* Docker – Containerization platform
+* Node.js – Demo application runtime
+* Windows – Jenkins host system
+
+---
+
+## Project Structure
+
+```
+devops-demo-app
+│
+├── app.js
 ├── package.json
-├── package-lock.json
-├── server.js
-└── public/
-    └── index.html
----
-    
-## 📦 Requirements
-
-Before you begin, make sure you have these installed on your system:
-
-- [Node.js](https://nodejs.org/) (for local testing if needed)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop) (make sure Docker is running)
+├── Dockerfile
+└── Jenkinsfile
+```
 
 ---
 
-## 🛠 1. Clone or Download the Project
+## Application Description
 
-git clone https://github.com/ashish7408/docker-node-demo
-cd docker-node-demo
-## Go to your project folder then build docker image (Make sure folder contain all files and with same extentons as this one)
-## 🐳 Docker Commands
+A simple **Node.js Express application** that returns a message when accessed through the browser.
 
-### * Build the Docker image:
-docker build -t local-devops-app .
+Example Output:
 
-### * Run the Docker Container:
-docker run -d -p 8080:80 local-devops-app
+```
+CI/CD Pipeline Running on Windows Jenkins!
+```
 
-### * To find all running Docker containers, use this command:
-docker ps
+---
 
-### * If you only want the container IDs:
-docker ps -q
+## Prerequisites
 
-### * To Stop a Container:
-docker stop <container id>
+Before running this project, ensure the following tools are installed:
 
-### To run app : go to : http://localhost:8080
+* Docker Desktop
+* Jenkins
+* Git
+* Node.js (optional for local testing)
 
+---
+
+## How the CI/CD Pipeline Works
+
+### Step 1: Code Push
+
+The developer pushes code to the GitHub repository.
+
+### Step 2: Jenkins Pipeline Trigger
+
+Jenkins pulls the latest code from GitHub.
+
+### Step 3: Docker Image Build
+
+Jenkins builds a Docker image using the Dockerfile.
+
+### Step 4: Container Deployment
+
+Jenkins runs a Docker container from the built image.
+
+---
+
+## Running the Application
+
+After the pipeline completes successfully, open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+You should see the application response.
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* CI/CD pipeline creation
+* Jenkins pipeline configuration
+* Docker containerization
+* GitHub integration with Jenkins
+* Automated deployment workflow
+
+---
+
+## Future Improvements
+
+* Integrate DockerHub for image storage
+* Add automated testing stage
+* Deploy containers using Kubernetes
+* Add monitoring using Prometheus and Grafana
+* Implement Infrastructure as Code using Terraform
+
+---
+
+## Author
+
+Ashish Kumar Yadav
+
+DevOps Enthusiast | Linux | Docker | CI/CD
 
 
 
