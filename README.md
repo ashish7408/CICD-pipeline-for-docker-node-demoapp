@@ -1,9 +1,6 @@
 # 🚀  # DevOps CI/CD Pipeline Project (Jenkins + Docker on Windows)
 This is a Node.js application fully containerized using Docker. It’s designed as a DevOps starter project and is ideal for practicing CI/CD automation, Jenkins pipelines, container orchestration, and deploying to cloud platforms like AWS EC2.
 
-
-# DevOps CI/CD Pipeline Project (Jenkins + Docker on Windows)
-
 ## Project Overview
 
 This project demonstrates a simple **CI/CD pipeline** using **GitHub, Jenkins (running on Windows), and Docker**.
