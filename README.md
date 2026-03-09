@@ -138,6 +138,8 @@ DevOps Enthusiast | Linux | Docker | CI/CD
 <img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/558006b6-30a0-4a97-b296-
     c645c29ed448" />
 <img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/8425f267-c834-44bb-8a6f-d82e4892bbf6" />
+<img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/5a150194-d02a-40f2-9de2-845bb97e36b2" />
+
 <img width="1366" height="768" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/8399d4b0-7a11-48e4-aeb2-7f18583d2d25" />
 
 
