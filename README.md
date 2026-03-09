@@ -132,6 +132,8 @@ Ashish Kumar Yadav
 DevOps Enthusiast | Linux | Docker | CI/CD
 
 
+<img width="1366" height="768" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/173c62ca-e4e6-4cf8-8100-62b7be99e387" />
+
 
 
 
