@@ -132,7 +132,14 @@ Ashish Kumar Yadav
 DevOps Enthusiast | Linux | Docker | CI/CD
 
 
-<img width="1366" height="768" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/173c62ca-e4e6-4cf8-8100-62b7be99e387" />
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/0102062c-9e1e-401d-9483-1329ab665b83" />
+
+<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/745a64ec-2268-447c-98ce-ebaf09e42cb3" />
+<img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/558006b6-30a0-4a97-b296-
+    c645c29ed448" />
+<img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/8425f267-c834-44bb-8a6f-d82e4892bbf6" />
+<img width="1366" height="768" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/8399d4b0-7a11-48e4-aeb2-7f18583d2d25" />
+
 
 
 
